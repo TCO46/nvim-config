@@ -23,4 +23,4 @@ vim.o.ignorecase = true
 vim.o.showmode = false
 vim.o.backup = false
 vim.o.showtabline = 2
-vim.o.timeoutlen = 100
+vim.o.timeoutlen = 150
