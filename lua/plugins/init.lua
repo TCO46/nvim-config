@@ -7,7 +7,7 @@ return require('packer').startup(function(use)
   'nvim-lualine/lualine.nvim',
   requires = { 'kyazdani42/nvim-web-devicons', opt = true }
   }
-  use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}
+  use {'akinsho/bufferline.nvim', requires = 'nvim-tree/nvim-web-devicons'}
   use 'ryanoasis/vim-devicons'
   use {
   'nvim-tree/nvim-tree.lua',
@@ -19,4 +19,8 @@ return require('packer').startup(function(use)
   use {'p00f/nvim-ts-rainbow'}
   use {'windwp/nvim-autopairs'}
   use {'folke/which-key.nvim'}
+  use {
+  'nvim-telescope/telescope.nvim', tag = '0.1.0',
+  requires = { {'nvim-lua/plenary.nvim'} }
+}
 end)

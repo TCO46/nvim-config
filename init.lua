@@ -7,5 +7,6 @@ require('bufferline-config')
 require('nvimtree-config')
 require('autopairs-config')
 require('whichkey-config')
+require('telescope-config')
 vim.cmd('colorscheme catppuccin-mocha')
 
