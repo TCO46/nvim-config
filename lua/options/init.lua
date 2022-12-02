@@ -1,5 +1,6 @@
 vim.cmd('filetype plugin indent on')
 vim.o.fileencoding = 'utf-8'
+vim.o.encoding = 'utf-8'
 vim.o.hidden = true
 vim.o.mouse = 'a'
 vim.o.pumheight = 10
@@ -23,4 +24,5 @@ vim.o.ignorecase = true
 vim.o.showmode = false
 vim.o.backup = false
 vim.o.showtabline = 2
-vim.o.timeoutlen = 150
+vim.o.timeoutlen = 100
+

@@ -1,5 +1,6 @@
 return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
+  use 'nvim-tree/nvim-web-devicons'
   use { "catppuccin/nvim", as = "catppuccin" }
   use 'andweeb/presence.nvim'
   use {'nvim-treesitter/nvim-treesitter', run = ":TSUpdate"}
@@ -8,7 +9,6 @@ return require('packer').startup(function(use)
   requires = { 'kyazdani42/nvim-web-devicons', opt = true }
   }
   use {'akinsho/bufferline.nvim', requires = 'nvim-tree/nvim-web-devicons'}
-  use 'ryanoasis/vim-devicons'
   use {
   'nvim-tree/nvim-tree.lua',
   requires = {
