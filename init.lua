@@ -8,5 +8,6 @@ require('nvimtree-config')
 require('autopairs-config')
 require('whichkey-config')
 require('telescope-config')
+require('dashboard-config')
 vim.cmd('colorscheme catppuccin-mocha')
 
