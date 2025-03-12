@@ -226,4 +226,5 @@ return {
       }
     end,
   },
+  {"typescript-tools.nvim"}
 }
